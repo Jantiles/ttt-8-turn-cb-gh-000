@@ -1,5 +1,5 @@
-def display_board(board,index)
-puts " board[]  |   |   "
+def display_board(board)
+puts " board[0]  |   |   "
 puts "-----------"
 puts "   |   |   "
 puts "-----------"
