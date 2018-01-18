@@ -1,7 +1,6 @@
 #!/usr/bin/env ruby
 board=[" ", " "," ", " "," ", " "," ", " "," "]
 puts "Welcome to Tic Tac Toe"
-puts "Please enter your move"
 
 input = input.strip
 
