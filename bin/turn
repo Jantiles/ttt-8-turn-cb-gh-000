@@ -11,3 +11,5 @@ if valid_move(board, index)
   move(board, index)
 else
   puts "Invalid move"
+end
+display_board(board)
