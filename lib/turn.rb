@@ -31,5 +31,15 @@ def move(board, index, choice= "X")
 end
 
 def turn(board, index)
-  puts "Please enter 1-9:"
+  input = input.strip
+
+  index = input_to_index(input)
+
+  if valid_move(board, index)
+    move(board, index)
+  else
+    puts "Invalid move"
+  end
+  display_board(board)
+  turn(board, index)
 end
