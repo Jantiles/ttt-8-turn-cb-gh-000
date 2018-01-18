@@ -7,5 +7,5 @@ puts " board[6]  |board[7]  | board[8] "
 end
 
 def valid_move?(board, index)
-  if 
+  if position_taken? || !(index.between(0, 8))
 end
