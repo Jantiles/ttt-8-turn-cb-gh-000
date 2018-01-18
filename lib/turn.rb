@@ -30,7 +30,7 @@ def move(board, index, choice= "X")
   board[index]= choice
 end
 
-def turn(board, index)
+def turn(board)
   input = input.strip
 
   index = input_to_index(input)
