@@ -31,5 +31,5 @@ def move(board, index, choice= "X")
 end
 
 def turn(board, index)
-  
+  puts "Please enter 1-9:"
 end
