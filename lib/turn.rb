@@ -30,4 +30,5 @@ def move(board, index, choice= "X")
   board[index]= choice
 end
 
-def turn()
+def turn(board, index)
+end
